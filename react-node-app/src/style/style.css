@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.available{
+    background-color: greenyellow;
+}
+.sold{
+    background-color: red;
+}

@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ApartmentsProvider } from "./context/ApartmentsContext";
+
 
 ReactDOM.render(
   <React.StrictMode>
+    <ApartmentsProvider>
     <App />
+    </ApartmentsProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
